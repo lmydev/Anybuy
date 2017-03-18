@@ -25,14 +25,15 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        fist();
+        frist();
 
     }
 
-    private void fist() {
+    private void frist() {
         UserInfo mUser = new UserInfo();
-        mUser.setName("天下第一");
-        mUser.setEmail("6666");
+        mUser.setUserName("天下第一");
+        mUser.setEmail("123456@123.com");
+        mUser.setPassWord("password");
 
         mUser.save(new SaveListener<String>() {
             @Override
