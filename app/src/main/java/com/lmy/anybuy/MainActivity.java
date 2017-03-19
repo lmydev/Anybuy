@@ -25,25 +25,7 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        frist();
 
     }
 
-    private void frist() {
-        UserInfo mUser = new UserInfo();
-        mUser.setUserName("天下第一");
-        mUser.setEmail("123456@123.com");
-        mUser.setPassWord("password");
-
-        mUser.save(new SaveListener<String>() {
-            @Override
-            public void done(String s, BmobException e) {
-                if (e==null){
-                    Toast.makeText(mContext, "fail to add user", Toast.LENGTH_SHORT).show();
-                }else {
-                    Toast.makeText(mContext, "success to add user", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-    }
 }
