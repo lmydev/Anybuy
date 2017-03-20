@@ -3,15 +3,16 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/et_account"
+        android:id="@+id/et_phone"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
     <EditText
         android:id="@+id/et_password"
-        android:layout_below="@id/et_account"
+        android:layout_below="@id/et_phone"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/bt_login"

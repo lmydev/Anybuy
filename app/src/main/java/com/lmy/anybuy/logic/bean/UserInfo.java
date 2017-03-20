@@ -10,24 +10,24 @@ import cn.bmob.v3.BmobObject;
  */
 
 public class UserInfo extends BmobObject{
-    private String userName;
-    private String passWord;
+    private String phone;
+    private String password;
     private String email;
 
     public String getUserName() {
-        return userName;
+        return phone;
     }
 
     public void setUserName(String userName) {
-        this.userName = userName;
+        this.phone = userName;
     }
 
     public String getPassWord() {
-        return passWord;
+        return password;
     }
 
     public void setPassWord(String passWord) {
-        this.passWord = passWord;
+        this.password = passWord;
     }
 
     public String getEmail() {
