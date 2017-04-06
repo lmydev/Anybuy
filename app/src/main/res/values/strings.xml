@@ -5,4 +5,17 @@
     <string name="login">登陆</string>
     <string name="find_password">忘记密码</string>
     <string name="submit">提交</string>
+
+    <string name="user_desc">用户签名</string>
+
+    <!--list菜单项-->
+    <string name="drawer_home">首页</string>
+    <string name="drawer_setting">设置</string>
+    <string name="drawer_advice">意见反馈</string>
+    <string name="drawer_share">分享</string>
+    <string name="drawer_about">关于</string>
+    <string name="drawer_exit">退出</string>
+
+    <string name="categorize">商品分类</string>
+    <string name="register_info">点击"注册"即意味着您已经阅读并同意</string>
 </resources>

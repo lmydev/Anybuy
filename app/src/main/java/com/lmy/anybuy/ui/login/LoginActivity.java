@@ -1,4 +1,4 @@
-package com.lmy.anybuy.ui;
+package com.lmy.anybuy.ui.login;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.lmy.anybuy.MainActivity;
+import com.lmy.anybuy.ui.Home.MainActivity;
 import com.lmy.anybuy.R;
 import com.lmy.anybuy.logic.bean.UserInfo;
 import com.lmy.anybuy.util.zLog;
@@ -23,7 +23,6 @@ import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.QueryListener;
 
 /**
  * ClassName:

@@ -1,4 +1,4 @@
-package com.lmy.anybuy.ui;
+package com.lmy.anybuy.ui.login;
 
 import android.app.Activity;
 import android.content.Context;
